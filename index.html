@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rozgrywki Futbolowe</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <div class="baner">
+        <h2>Światowe rozgrywki piłkarskie</h2>
+        <img src="obraz1.jpg" alt="boisko"> 
+    </div>
+  
+    <div class="mecze">
+        <div class='info'><h3>EVG - FCB </h3><h4>3:1</h4><p>w dniu: 2019-05-14</p></div>
+        <div class='info'><h3>EVG - FCB </h3><h4>2:3</h4><p>w dniu: 2019-05-20</p></div>
+        <div class='info'><h3>EVG - JUV </h3><h4>3:0</h4><p>w dniu: 2019-05-13</p></div>
+        <div class='info'><h3>EVG - RM </h3><h4>2:0</h4><p>w dniu: 2019-05-16</p></div>
+        <div class='info'><h3>EVG - FCB </h3><h4>1:1</h4><p>w dniu: 2019-05-22</p></div>
+    </div>
+
+    <div class="glowny">
+        <h2>Reprezentacja Polski</h2>
+    </div>
+
+    <div class="lewy">
+        <p>Podaj pozycję zawodników (1 - bramkarze, 2 - obrońcy, 3 - pomocnicy, 4 - napastnicy): </p>
+        <form action="futbol.php" method="POST">
+            <input type="number" name="pozycja">
+            <input type="submit" value="Sprawdź">
+        </form>
+
+        <ol>
+            <li><p>Arkadiusz Milik</p></li>
+            <li><p>Adam Buksa</p></li>
+        </ol>
+    </div>
+
+    <div class="prawy">
+        <img src="zad1.png" alt="piłkarz">
+        <p>Autor: Adrian Lewek</p> 
+    </div>
+</body>
+</html>
